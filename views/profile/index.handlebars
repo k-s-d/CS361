@@ -1,0 +1,17 @@
+
+
+<h1 class="d-flex justivy-content-center">Profile</h1>
+<br>
+<hr>
+{{#if profile}}
+<ul>
+    {{!-- <li>Name: {{user.firstName}}</li> --}}
+    <li>Number of Pets: {{numOfPets}}</li>
+    <li>Location: {{location}}</li>
+    <li>Veterinary Provider: {{vetProvider}}</li>
+</ul>
+{{else}}
+<h3>No profile exists for this user</h3>
+{{/if}}
+
+</div>
